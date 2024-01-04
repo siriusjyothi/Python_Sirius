@@ -17,3 +17,8 @@ print(l3) # [<class 'int'>, <class 'float'>, <class 'str'>, <class 'bool'>, <cla
 l4 = [int(),float(),str(),bool(),complex(),range(0),list(),dict] # we need give 0 for range default
 print(l4) # [0, 0.0, '', False, 0j, range(0, 0), [], <class 'dict'>]o/p will give default values of datatypes
 
+# how to pop multiple numbers from list
+l2 = [10,20,30,50,20,10,30]
+print(l2)
+print(l2.pop(5), l2.pop(0))
+print(l2) # 10 10 [20, 30, 50, 20, 30]
